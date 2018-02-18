@@ -2,6 +2,6 @@
     "require": {
         "calcinai/php-imagick": "^0.1.2",
         "ext-mbstring": "*",
-        "ext-imagick": "*"
+        "imagick": "*"
     }
 }
