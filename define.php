@@ -48,7 +48,7 @@ define("DIS_TYPE", "no_effect");
 // フォント一覧取得
 $FONT_LIST;
 // exec('ls "/var/www/html/imagick_test/fonts/"', $FONT_LIST);
-exec('ls "./fonts/"', $FONT_LIST);
+exec('ls "/app/fonts/"', $FONT_LIST);
 
 // 文字加工プリセット
 function transform($dis_type, $img, $draw, $text, $text_width, $text_height){
