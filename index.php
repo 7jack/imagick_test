@@ -31,7 +31,7 @@ function resetradio() {
 </script>
 </head>
 <body>
-<h1>入力した文字列を漫画の擬音みたいにする</h1>
+<h1>任意の文字列をアップロードした画像に合成</h1>
 <form action="character.php" method="post" enctype="multipart/form-data" id="wrapper">
   <div>
     <?php if($error_text) echo "<p class='error'>$error_text</p>"; ?>
